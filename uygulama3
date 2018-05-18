@@ -1,0 +1,19 @@
+package soru3
+	import java.util.Scanner;
+	public class soru3 {
+	public static void main(String[] args) {
+	
+İnt toplam=0; sonuc;
+  for (int i = 45; i <= 255; i++) {
+            if (i % 3 == 0 && i % 7 == 0) {
+if( i%2==0 && i%7==0
+                System.out.println(i); {
+toplam+=i;
+
+            }
+        }
+Sonuc=toplam;
+System.out.println("45-255 arası hem  çift hem 7’ye bölen”);
+System.out.println(“sayıların toplamı:/n”+sonuc);
+}
+}
