@@ -1,0 +1,23 @@
+packagesoru2
+	import java.util.Scanner;
+	public class soru2 {
+	public static void main(String[] args) {
+			
+	Scanner tara = new Scanner(System.in);
+	int i=0, top=0;
+	String dur;
+	Do
+	{
+	System.out.print("sayı gir… (“Dur”): ");
+		Dur = tara.next();
+		if(Dur.equals("Dur"))
+		break;
+		else
+		i = Integer.parseInt(dur);
+		top += i;
+		}
+	while(top!=Integer.MAX_VALUE);
+	tara.close();
+			System.out.print("Toplam = " + top);
+		}
+	}
