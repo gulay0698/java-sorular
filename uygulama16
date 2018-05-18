@@ -1,0 +1,18 @@
+package soru;
+	import java.util.Scanner;
+	public class soru16 {
+		public static void main(String[] args) {
+			
+			Scanner tara = new Scanner(System.in);
+			System.out.print("yazınız: ");
+			String yaz = tara.nextLine();
+			String [] parca = yaz.split(" ");
+			tara.close();
+			System.out.println("kelime parçalandı…Kelimeler: ");
+			for(String item : parca)
+			{
+				System.out.println(item);
+			}
+			
+		}
+	}
