@@ -1,0 +1,18 @@
+package soru;
+	public class soru20 {
+		public static void ayirt(int[] data){
+			System.out.println("tek sayılar:");
+			for(int i=0; i<data.length; i++)
+				if(data[i]%2!=0)
+	System.out.println(data[i]);
+	System.out.println("----------\n cift sayılar:");
+			for(int i=0; i<data.length; i++)
+				if(data[i]%2==0)
+					System.out.println(data[i]);	
+		}
+		public static void main(String[] args) {
+			
+			int [] dizi = {11,15,45,76,100,53};
+			ayirt(dizi);	
+		}
+	}
