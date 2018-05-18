@@ -1,0 +1,17 @@
+package soru;
+	public class soru17 {
+		public static boolean siralimi(int[] data) {
+			for(int i=1; i<data.length; i++)
+				if(data[i-1]<=data[i])
+					return false;
+			return true;
+		}
+		public static void main(String[] args) {
+			
+			int [] dizi = {11,12,13,20};
+			if(siralimi(dizi)==false)
+				System.out.println("dizi sıralı");
+			else
+				System.out.println("dizi sırasız");
+		}
+	}
