@@ -1,0 +1,23 @@
+package soru;
+	import java.util.Scanner;
+	public class soru7 {
+		public static void main(String[] args) {
+			
+			int sayi;
+			Scanner tara = new Scanner(System.in);
+			do {
+				sayi=0;
+				System.out.print("En fazla 4 basamaklı sayı gir: ");
+				sayi = tara.nextInt();
+			}
+			while(String.valueOf(sayi).length()>4);
+			tara.close();
+			for(int i=1; i<=sayi;i++)
+			{
+				if(sayi%i==0)
+				{
+					System.out.println(i + " x " + (sayi/i) + " = " + sayi);
+				}
+			}
+		}
+  }
