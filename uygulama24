@@ -1,0 +1,31 @@
+import javax.swing.JOptionPane;
+
+public class soru24 {
+   
+    static String ToBinary(int number)
+        {
+            int mod;
+            String result = "";
+            while (number > 0)
+            {
+                mod = number % 2;
+                number /= 2;
+                result = String.valueOf(mod) + result;
+            }
+            return result;
+        }
+   
+
+    public static void main(String [] args){
+         
+        int sayi=Integer.parseInt(JOptionPane.showInputDialog("Sayı Gir: "));
+
+        int binary=Integer.parseInt(ToBinary(sayi));
+        
+          JOptionPane.showMessageDialog(null,binary);
+
+        
+       
+        
+    }
+}
