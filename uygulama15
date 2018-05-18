@@ -1,0 +1,19 @@
+public class soru15 {
+ 
+    public static void main(String[] args) {
+    
+        String text = "Kelime";
+    
+        reverseString(text);
+    }
+    
+    public static void reverseString(String text) {
+       
+        char[] chars = text.toCharArray();
+        int lenght = chars.length;
+    
+        for(int i = lenght-1; i >= 0; i--){
+            System.out.print(chars[i]);
+        }
+    }
+}
