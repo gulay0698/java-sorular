@@ -1,0 +1,24 @@
+package soru;
+ 
+import java.util.*;
+public class soru9 {
+ 
+public static void main(String[] args) {
+      
+        Scanner giris=new Scanner(System.in);
+        int birsayi;
+        System.out.print("Bir sayı giriniz:");
+        birsayi=giris.nextInt();
+         
+        if(birsayi %2==0) {
+            System.out.print("Sayı Çifttir…");
+       
+}
+        else 
+
+{
+        System.out.print("Sayı Tektir…");
+        }
+    }
+     
+}
